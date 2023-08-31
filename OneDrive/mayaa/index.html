@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>profil sekolah</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href= "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.radioidola.com%2Fwp-content%2Fuploads%2F2020%2F01%2F2020-01-22_Sekolah-Ramah-Anak.jpg&tbnid=IpZoG7C3ghJ5KM&vet=12ahUKEwjn_ZXBioeBAxW4mmMGHXyrC34QMyglegUIARCXAQ..i&imgrefurl=https%3A%2F%2Fwww.radioidola.com%2F2020%2Furgensi-mewujudkan-sekolah-ramah-anak%2F&docid=AmTO0gk6DLHIPM&w=720&h=480&q=sekolah&ved=2ahUKEwjn_ZXBioeBAxW4mmMGHXyrC34QMyglegUIARCXAQ" rel="stylesheet">
+</head>
+<body>
+  <div class="wrapper">
+    <nav>
+      <div class="container-flex">
+        <div class="brand">
+            <a href="">Sekolah Merdeka</a>
+         </div>
+         <div class="burger">
+            <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+         </div>
+         <div class="bg-sidebar"></div>
+         <ul class="sidebar">
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#login">Log In</a></li>
+         </ul>
+      </div>
+    </nav>
+  </div>
+  <!DOCTYPE html>
+<html>
+<head>
+    <title>Profil Sekolah</title>
+    <style>
+        /* Gaya tampilan form */
+    </style>
+</head>
+<body>
+    <h1>Profil Sekolah</h1>
+    <form id="schoolForm">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required><br>
+
+        <label for="phone">Nomor Telepon:</label>
+        <input type="tel" id="phone" required><br>
+
+        <label for="message">Pesan:</label>
+        <textarea id="message" required></textarea><br>
+
+        <button type="submit">Kirim</button>
+    </form>
+
+    <script>
+        document.getElementById("schoolForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Menghentikan aksi default form
+
+            // Validasi JavaScript di sini (misalnya: panjang nama, format email, dll.)
+
+            // Mengambil nilai dari input
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var phone = document.getElementById("phone").value;
+            var message = document.getElementById("message").value;
+
+            // Lakukan sesuatu dengan nilai-nilai yang diambil, seperti mengirimkan data ke server
+
+            // Setelah data dikirim atau diproses, Anda bisa memberi umpan balik kepada pengguna
+            alert("Terima kasih atas informasinya!");
+        });
+    </script>
+</body>
+</html>
+<script src="app.js"></script>
+</body>
+</html>
